@@ -1,0 +1,198 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************
+
+global styling
+
+******************/
+body{
+  font-family: 'Overpass', sans-serif;
+  font-size: 62.5%;
+  height: 100vh;
+  background: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+  font-size: 24px;
+}
+
+p{
+  color: hsl(216, 12%, 54%);
+  font-size: 15px;
+}
+
+li{
+  color: hsl(216, 12%, 54%);
+  list-style: none;
+}
+
+span{
+  display: inline-block;
+}
+
+.container{
+  background: hsl(215, 18%, 13%);
+  border-radius: 15px;
+  padding: 25px 20px;
+  width: 340px;
+}
+
+.hidden{
+  display: none;
+}
+
+.oval{
+  border-radius: 20px;
+}
+
+
+
+
+/******************
+
+da specifics 
+
+******************/
+
+
+/* RATING SECTION */
+.circle{
+  background: hsl(213, 10%, 23%);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating h1{
+  margin: 18px 0 15px 0;
+}
+
+.rating-options{
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: space-between;
+  margin: 20px 0 25px 0;
+}
+
+.rating-options li{
+  cursor: pointer;
+}
+
+.rating-options li:hover{
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* toggle when clicked */
+.option{
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit{
+  background: hsl(25, 97%, 53%);
+  border: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 12px 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.submit:is(:focus, :hover){
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+
+
+/* THANK-YOU SECTION */
+.thank-you{
+  text-align: center;
+}
+
+.thank-you img{
+  margin: 5px 0 20px 0;
+}
+
+.result{
+  background: hsl(213, 10%, 23%);
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 8px 0;
+  width: 180px;
+}
+
+.thank-you h1{
+  margin: 20px 0 10px 0;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 400px) {
+  .container{
+    width: 380px;
+  }
+
+  .rating h1{
+    margin: 25px 0 15px 0;
+  }
+  
+  .rating-options{
+    margin: 25px 0 30px 0;
+  }
+
+
+  .thank-you img{
+    margin: 10px 0 25px 0;
+  }
+  
+  .thank-you h1{
+    margin: 25px 0 10px 0;
+  }
+  
+}
+
+@media screen and (max-width: 340px) {
+  .container{
+    width: 300px;
+  }
+}
