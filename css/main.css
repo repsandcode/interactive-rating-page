@@ -32,6 +32,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 a{
@@ -60,6 +61,7 @@ span{
 .container{
   background: hsl(215, 18%, 13%);
   border-radius: 15px;
+  margin-bottom: 50px;
   padding: 25px 20px;
   width: 340px;
 }
@@ -162,6 +164,26 @@ da specifics
 .thank-you h1{
   margin: 20px 0 10px 0;
 }
+
+
+
+/* ATTRIBUTION */
+.attribution{
+  position: absolute;
+  bottom: 30px;
+  color: hsl(213, 10%, 23%);
+  font-size: 12px;
+}
+
+.attribution a{
+  color: hsl(216, 12%, 54%);
+}
+
+.attribution a:hover{
+  color: hsl(25, 97%, 53%);
+}
+
+
 
 
 
