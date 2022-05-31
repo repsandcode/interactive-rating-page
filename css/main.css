@@ -61,7 +61,6 @@ span{
 .container{
   background: hsl(215, 18%, 13%);
   border-radius: 15px;
-  margin-bottom: 50px;
   padding: 25px 20px;
   width: 340px;
 }
