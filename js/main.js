@@ -57,3 +57,9 @@ function thankYou() {
     document.querySelector('#chosen-option').innerText = chosenRating
   }
 }
+
+
+document.querySelector('#left-arrow').addEventListener('click', left = () => {
+  document.querySelector('#rating').classList.remove('hidden')
+  document.querySelector('#thank-you').classList.toggle('hidden')
+});

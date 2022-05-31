@@ -144,6 +144,7 @@ da specifics
 
 /* THANK-YOU SECTION */
 .thank-you{
+  position: relative;
   text-align: center;
 }
 
@@ -164,6 +165,18 @@ da specifics
   margin: 20px 0 10px 0;
 }
 
+.fa-arrow-left{
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-size: 25px;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+}
+
+.fa-arrow-left:hover{
+  color: hsl(25, 97%, 53%);
+}
 
 
 /* ATTRIBUTION */
