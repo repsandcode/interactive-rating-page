@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/splash-mall-rating-page-html-flexbox-css-javascript-ukZRxbmoa2)
-- Live Site URL: [](https://splashratingpage.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/splash-mall-rating-page-html-flexbox-css-javascript-ukZRxbmoa2]
+- Live Site URL: [https://splashratingpage.vercel.app/]
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [](https://albertjonathan.netlify.app)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/repsandcode)
-- Twitter - [](https://twitter.com/repsandcode)
+- Website - [https://albertjonathan.netlify.app]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/repsandcode]
+- Twitter - [https://twitter.com/repsandcode]
