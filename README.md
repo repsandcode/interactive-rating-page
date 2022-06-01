@@ -1,7 +1,6 @@
 # Interactive Rating Component
-# from: Frontend Mentor
 
-This is my solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+My solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Table of contents
 
@@ -9,7 +8,6 @@ This is my solution to the [Interactive rating component challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/splash-mall-rating-page-html-flexbox-css-javascript-ukZRxbmoa2)
-- Live Site URL: [Add live site URL here](https://splashratingpage.vercel.app/)
+- Solution URL: [](https://www.frontendmentor.io/solutions/splash-mall-rating-page-html-flexbox-css-javascript-ukZRxbmoa2)
+- Live Site URL: [](https://splashratingpage.vercel.app/)
 
 ## My process
 
@@ -46,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://albertjonathan.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/repsandcode)
-- Twitter - [@yourusername](https://twitter.com/repsandcode)
+- Website - [](https://albertjonathan.netlify.app)
+- Frontend Mentor - [](https://www.frontendmentor.io/profile/repsandcode)
+- Twitter - [](https://twitter.com/repsandcode)
